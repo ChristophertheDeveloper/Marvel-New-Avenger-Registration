@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload="myFunction()">
+    <div class="container">
+        <div class="title"> Marvel New Avenger Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" id="firstname" placeholder="Enter your First name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your Last name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">User Name</span>
+                        <input type="text" id="username" placeholder="Enter your Username" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm User Name</span>
+                        <input type="text" placeholder="Confirm your User Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Enter your Password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input type="text" placeholder="Confirm your Password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mentor Name</span>
+                        <input type="text" id="mentorname" placeholder="Enter Your Chosen Mentor" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mentor Password</span>
+                        <input type="text" id="mentorpassword" placeholder="Enter Mentor Password" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="button" onclick="getInfo()" value="Register">
+                </div>
+            </form>
+        </div>
+        <div class="avengersa">
+
+            <img src="./images/hawkeye.png" height="100px" width="90px" hspace="20" alt="Italian Trulli">
+            <img src="./images/ironman.png" height="100px" width="80px" hspace="20" alt="Italian Trulli">
+            <img src="./images/bruce.png" height="100px" width="80px" hspace="20" alt="Italian Trulli">
+            <img src="./images/vision2.png" height="100px" width="90px" hspace="20" alt="Italian Trulli">
+            <img src="./images/thor.png" height="100px" width="90px" hspace="20" alt="Italian Trulli">
+            <img src="./images/witch.png" height="100px" width="90px" hspace="20" alt="Italian Trulli">
+            <img src="./images/captain.png" height="100px" width="80px" hspace="20" alt="Italian Trulli">
+            <img src="./images/blackwidow.png" height="100px" width="100px" hspace="20" alt="Italian Trulli">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
